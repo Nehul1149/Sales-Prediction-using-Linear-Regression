@@ -22,16 +22,6 @@ Plot the actual sales versus predicted sales for visual comparison.
 
 This project demonstrates how to use linear regression to predict monthly sales based on historical sales data. The project includes data preprocessing, feature engineering, model training, evaluation, and visualization.
 
-## Table of Contents
-
-- [Introduction](#introduction)
-- [Prerequisites](#prerequisites)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Results](#results)
-- [Contributing](#contributing)
-- [License](#license)
-
 ## Introduction
 
 The goal of this project is to predict future sales using a linear regression model. We use historical sales data, preprocess it, create a supervised learning dataset, and train a linear regression model to make predictions. The project also includes evaluation metrics and visualizations to compare the predicted sales against the actual sales.
@@ -44,12 +34,6 @@ The goal of this project is to predict future sales using a linear regression mo
 - Scikit-learn
 - Matplotlib
 
-You can install the required packages using the following command:
-
-```bash
-pip install pandas numpy scikit-learn matplotlib
-```
-
 # The script will perform the following steps:
 
 * Load and preprocess the data
@@ -60,20 +44,3 @@ pip install pandas numpy scikit-learn matplotlib
 * Plot the actual vs. predicted sales
 
 # Results
-## The output includes:
-Evaluation metrics:
-Mean Squared Error (MSE)
-Mean Absolute Error (MAE)
-R2 Score
-
-A plot comparing the actual sales and the predicted sales.
-The plot helps visualize the model's performance in predicting sales for the test period.
-
-# Contributing
-Contributions are welcome! If you have any suggestions or improvements, please create a pull request or open an issue.
-
-# Fork the repository
-Create your feature branch (git checkout -b feature/fooBar)
-Commit your changes (git commit -m 'Add some fooBar')
-Push to the branch (git push origin feature/fooBar)
-Create a new Pull Request
